@@ -1,0 +1,1003 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A0D8DD21C060FC200B6A903 /* TextFaces.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A46D0531BF39250005204BC /* TextFaces.m */; };
+		0A0D8DD41C06106700B6A903 /* TextFaces.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A46D0531BF39250005204BC /* TextFaces.m */; };
+		0A46D0131BF246BB005204BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A46D0121BF246BB005204BC /* main.m */; };
+		0A46D0161BF246BB005204BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A46D0151BF246BB005204BC /* AppDelegate.m */; };
+		0A46D0191BF246BB005204BC /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A46D0181BF246BB005204BC /* RootViewController.m */; };
+		0A46D01C1BF246BB005204BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A46D01A1BF246BB005204BC /* Main.storyboard */; };
+		0A46D02D1BF246BC005204BC /* TextFacesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A46D02C1BF246BC005204BC /* TextFacesTests.m */; };
+		0A46D0401BF246F3005204BC /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A46D03F1BF246F3005204BC /* KeyboardViewController.m */; };
+		0A46D0431BF246F3005204BC /* TextFacesKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0A46D03A1BF246F3005204BC /* TextFacesKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0A46D04A1BF248D9005204BC /* KeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A46D0491BF248D9005204BC /* KeyboardView.m */; };
+		0A46D0B81BF4D859005204BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A46D0B71BF4D859005204BC /* Images.xcassets */; };
+		0A46D0BA1BF4E5CF005204BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A46D0B91BF4E5CF005204BC /* Images.xcassets */; };
+		0A46D0BB1BF4E5CF005204BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A46D0B91BF4E5CF005204BC /* Images.xcassets */; };
+		0A46D0C21BF4F6F1005204BC /* RootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A46D0C11BF4F6F1005204BC /* RootNavigationController.m */; };
+		0A46D0C31BF4F6F1005204BC /* RootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A46D0C11BF4F6F1005204BC /* RootNavigationController.m */; };
+		0A46D0CE1BF5563E005204BC /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A46D0181BF246BB005204BC /* RootViewController.m */; };
+		0A46D0D11BF5567B005204BC /* RootMenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A46D0D01BF5567B005204BC /* RootMenuTableViewCell.m */; };
+		0A46D0D21BF5567B005204BC /* RootMenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A46D0D01BF5567B005204BC /* RootMenuTableViewCell.m */; };
+		0A46D0D61BF62558005204BC /* FirstLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A46D0D51BF62558005204BC /* FirstLaunchViewController.m */; };
+		0A46D0D71BF62558005204BC /* FirstLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A46D0D51BF62558005204BC /* FirstLaunchViewController.m */; };
+		0A57D7DF1BF77707004D4E6E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A57D7DE1BF77707004D4E6E /* MediaPlayer.framework */; };
+		0A57D7E51BF7F470004D4E6E /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A57D7E41BF7F470004D4E6E /* HelpViewController.m */; };
+		0A57D7E61BF7F470004D4E6E /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A57D7E41BF7F470004D4E6E /* HelpViewController.m */; };
+		0A57D7E91BF8D68E004D4E6E /* ManageTextFacesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A57D7E81BF8D68E004D4E6E /* ManageTextFacesTableViewController.m */; };
+		0A7FE5921C098BF200055A2B /* SuggestedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7FE5911C098BF200055A2B /* SuggestedTableViewCell.m */; };
+		0A8534351BF9ACDE001A62FF /* TextFaces.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A46D0531BF39250005204BC /* TextFaces.m */; };
+		0A8534391BF9D80C001A62FF /* KeyboardTexfFacesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8534381BF9D80C001A62FF /* KeyboardTexfFacesListViewController.m */; };
+		0A85343C1BF9F45B001A62FF /* ManageTextFacesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A85343B1BF9F45B001A62FF /* ManageTextFacesCell.m */; };
+		0A85343D1BF9F45B001A62FF /* ManageTextFacesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A85343B1BF9F45B001A62FF /* ManageTextFacesCell.m */; };
+		0A8534401BFA310C001A62FF /* ManageFavoritesTableViewCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A85343F1BFA310C001A62FF /* ManageFavoritesTableViewCellController.m */; };
+		0A8534411BFA310C001A62FF /* ManageFavoritesTableViewCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A85343F1BFA310C001A62FF /* ManageFavoritesTableViewCellController.m */; };
+		0A8534421BFA4FE3001A62FF /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A57D7DE1BF77707004D4E6E /* MediaPlayer.framework */; };
+		0A8534441BFA4FEC001A62FF /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A8534431BFA4FEC001A62FF /* Social.framework */; };
+		0A8534461BFA55A2001A62FF /* textfaces-keyboard-screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A8534451BFA55A2001A62FF /* textfaces-keyboard-screenshot.png */; };
+		0A8534471BFA55A2001A62FF /* textfaces-keyboard-screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A8534451BFA55A2001A62FF /* textfaces-keyboard-screenshot.png */; };
+		0AA4E9F21C089F5D00D81A60 /* CommunityTextFacesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA4E9F11C089F5D00D81A60 /* CommunityTextFacesTableViewController.m */; };
+		0AA4E9F31C089F5D00D81A60 /* CommunityTextFacesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA4E9F11C089F5D00D81A60 /* CommunityTextFacesTableViewController.m */; };
+		0AC4BF0B1BFDE49F00B0E5D9 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC4BF0A1BFDE49F00B0E5D9 /* NSString+Additions.m */; };
+		0ADEF3631BFDFDC50075FB60 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ADEF3621BFDFDC50075FB60 /* MessageUI.framework */; };
+		0AF73A781C0493B400ABC75E /* ActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF73A771C0493B400ABC75E /* ActionViewController.m */; };
+		0AF73A7B1C0493B400ABC75E /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AF73A791C0493B400ABC75E /* MainInterface.storyboard */; };
+		0AF73A7F1C0493B400ABC75E /* TextFacesAction.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0AF73A741C0493B400ABC75E /* TextFacesAction.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0AF73A851C04A1A200ABC75E /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC4BF0A1BFDE49F00B0E5D9 /* NSString+Additions.m */; };
+		0AF73A861C04A79900ABC75E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A46D0B71BF4D859005204BC /* Images.xcassets */; };
+		7F3048DEEE70006D05A59366 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB231F4345F0C113D3B9F8F /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A46D0271BF246BC005204BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A46D0051BF246BB005204BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A46D00C1BF246BB005204BC;
+			remoteInfo = TextFaces;
+		};
+		0A46D0411BF246F3005204BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A46D0051BF246BB005204BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A46D0391BF246F3005204BC;
+			remoteInfo = Keyboard;
+		};
+		0AF73A7D1C0493B400ABC75E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A46D0051BF246BB005204BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AF73A731C0493B400ABC75E;
+			remoteInfo = TextFacesAction;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0A46D0471BF246F3005204BC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0AF73A7F1C0493B400ABC75E /* TextFacesAction.appex in Embed App Extensions */,
+				0A46D0431BF246F3005204BC /* TextFacesKeyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		004E588E9A18D598A7B1620E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		0A46D00D1BF246BB005204BC /* TextFaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextFaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A46D0111BF246BB005204BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A46D0121BF246BB005204BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A46D0141BF246BB005204BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A46D0151BF246BB005204BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A46D0171BF246BB005204BC /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		0A46D0181BF246BB005204BC /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		0A46D01B1BF246BB005204BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A46D0261BF246BC005204BC /* TextFacesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFacesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A46D02B1BF246BC005204BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A46D02C1BF246BC005204BC /* TextFacesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFacesTests.m; sourceTree = "<group>"; };
+		0A46D03A1BF246F3005204BC /* TextFacesKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TextFacesKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A46D03D1BF246F3005204BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A46D03E1BF246F3005204BC /* KeyboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardViewController.h; sourceTree = "<group>"; };
+		0A46D03F1BF246F3005204BC /* KeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewController.m; sourceTree = "<group>"; };
+		0A46D0481BF248D9005204BC /* KeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardView.h; sourceTree = "<group>"; };
+		0A46D0491BF248D9005204BC /* KeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardView.m; sourceTree = "<group>"; };
+		0A46D0521BF39250005204BC /* TextFaces.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFaces.h; sourceTree = "<group>"; };
+		0A46D0531BF39250005204BC /* TextFaces.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFaces.m; sourceTree = "<group>"; };
+		0A46D0581BF3F040005204BC /* KeyboardTexfFacesListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardTexfFacesListViewController.h; sourceTree = "<group>"; };
+		0A46D0B71BF4D859005204BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0A46D0B91BF4E5CF005204BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0A46D0C01BF4F6F1005204BC /* RootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootNavigationController.h; sourceTree = "<group>"; };
+		0A46D0C11BF4F6F1005204BC /* RootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootNavigationController.m; sourceTree = "<group>"; };
+		0A46D0CF1BF5567B005204BC /* RootMenuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootMenuTableViewCell.h; sourceTree = "<group>"; };
+		0A46D0D01BF5567B005204BC /* RootMenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootMenuTableViewCell.m; sourceTree = "<group>"; };
+		0A46D0D41BF62558005204BC /* FirstLaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstLaunchViewController.h; sourceTree = "<group>"; };
+		0A46D0D51BF62558005204BC /* FirstLaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstLaunchViewController.m; sourceTree = "<group>"; };
+		0A54BE8D1BFB418C008B6B12 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		0A57D7DE1BF77707004D4E6E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		0A57D7E31BF7F470004D4E6E /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		0A57D7E41BF7F470004D4E6E /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		0A57D7E71BF8D68E004D4E6E /* ManageTextFacesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManageTextFacesTableViewController.h; sourceTree = "<group>"; };
+		0A57D7E81BF8D68E004D4E6E /* ManageTextFacesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManageTextFacesTableViewController.m; sourceTree = "<group>"; };
+		0A7FE5901C098BF200055A2B /* SuggestedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuggestedTableViewCell.h; sourceTree = "<group>"; };
+		0A7FE5911C098BF200055A2B /* SuggestedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuggestedTableViewCell.m; sourceTree = "<group>"; };
+		0A8534361BF9C0AB001A62FF /* TextFacesKeyboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = TextFacesKeyboard.entitlements; sourceTree = "<group>"; };
+		0A8534371BF9C0F9001A62FF /* TextFaces.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = TextFaces.entitlements; sourceTree = "<group>"; };
+		0A8534381BF9D80C001A62FF /* KeyboardTexfFacesListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardTexfFacesListViewController.m; sourceTree = "<group>"; };
+		0A85343A1BF9F45B001A62FF /* ManageTextFacesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManageTextFacesCell.h; sourceTree = "<group>"; };
+		0A85343B1BF9F45B001A62FF /* ManageTextFacesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManageTextFacesCell.m; sourceTree = "<group>"; };
+		0A85343E1BFA310C001A62FF /* ManageFavoritesTableViewCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManageFavoritesTableViewCellController.h; sourceTree = "<group>"; };
+		0A85343F1BFA310C001A62FF /* ManageFavoritesTableViewCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManageFavoritesTableViewCellController.m; sourceTree = "<group>"; };
+		0A8534431BFA4FEC001A62FF /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		0A8534451BFA55A2001A62FF /* textfaces-keyboard-screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "textfaces-keyboard-screenshot.png"; sourceTree = "<group>"; };
+		0AA4E9F01C089F5D00D81A60 /* CommunityTextFacesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommunityTextFacesTableViewController.h; sourceTree = "<group>"; };
+		0AA4E9F11C089F5D00D81A60 /* CommunityTextFacesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommunityTextFacesTableViewController.m; sourceTree = "<group>"; };
+		0AC4BF091BFDE49F00B0E5D9 /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
+		0AC4BF0A1BFDE49F00B0E5D9 /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
+		0ADEF3621BFDFDC50075FB60 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		0ADEF3641BFDFFB00075FB60 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/../build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		0ADEF3661BFDFFBC0075FB60 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/../build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		0AF73A741C0493B400ABC75E /* TextFacesAction.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TextFacesAction.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AF73A761C0493B400ABC75E /* ActionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionViewController.h; sourceTree = "<group>"; };
+		0AF73A771C0493B400ABC75E /* ActionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionViewController.m; sourceTree = "<group>"; };
+		0AF73A7A1C0493B400ABC75E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		0AF73A7C1C0493B400ABC75E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AF73A831C04940200ABC75E /* TextFacesAction.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = TextFacesAction.entitlements; sourceTree = "<group>"; };
+		784F3DF54DC3C4E7DEF0ACEC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		DCB231F4345F0C113D3B9F8F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A46D00A1BF246BB005204BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ADEF3631BFDFDC50075FB60 /* MessageUI.framework in Frameworks */,
+				0A8534441BFA4FEC001A62FF /* Social.framework in Frameworks */,
+				0A8534421BFA4FE3001A62FF /* MediaPlayer.framework in Frameworks */,
+				7F3048DEEE70006D05A59366 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A46D0231BF246BC005204BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A46D0371BF246F3005204BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A57D7DF1BF77707004D4E6E /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF73A711C0493B400ABC75E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A46D0041BF246BB005204BC = {
+			isa = PBXGroup;
+			children = (
+				0A8534431BFA4FEC001A62FF /* Social.framework */,
+				0A57D7DE1BF77707004D4E6E /* MediaPlayer.framework */,
+				0A46D00F1BF246BB005204BC /* TextFaces */,
+				0A46D0291BF246BC005204BC /* TextFacesTests */,
+				0A46D03B1BF246F3005204BC /* TextFacesKeyboard */,
+				0AF73A751C0493B400ABC75E /* TextFacesAction */,
+				0A46D00E1BF246BB005204BC /* Products */,
+				BA8ABABE09CE599EE8BD6478 /* Pods */,
+				0CA9280CF58A6344DD537E39 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0A46D00E1BF246BB005204BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A46D00D1BF246BB005204BC /* TextFaces.app */,
+				0A46D0261BF246BC005204BC /* TextFacesTests.xctest */,
+				0A46D03A1BF246F3005204BC /* TextFacesKeyboard.appex */,
+				0AF73A741C0493B400ABC75E /* TextFacesAction.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A46D00F1BF246BB005204BC /* TextFaces */ = {
+			isa = PBXGroup;
+			children = (
+				0A8534371BF9C0F9001A62FF /* TextFaces.entitlements */,
+				0A46D0141BF246BB005204BC /* AppDelegate.h */,
+				0A54BE8D1BFB418C008B6B12 /* Common.h */,
+				0A46D0151BF246BB005204BC /* AppDelegate.m */,
+				0A46D0B71BF4D859005204BC /* Images.xcassets */,
+				0A46D04E1BF387A9005204BC /* Models */,
+				0ACDF06E1C03837400ED8EDC /* Categories */,
+				0A46D0C41BF4FC2D005204BC /* Controllers */,
+				0A46D01A1BF246BB005204BC /* Main.storyboard */,
+				0A46D0101BF246BB005204BC /* Supporting Files */,
+				0A46D0D31BF5567F005204BC /* Views */,
+			);
+			path = TextFaces;
+			sourceTree = "<group>";
+		};
+		0A46D0101BF246BB005204BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A8534451BFA55A2001A62FF /* textfaces-keyboard-screenshot.png */,
+				0A46D0111BF246BB005204BC /* Info.plist */,
+				0A46D0121BF246BB005204BC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A46D0291BF246BC005204BC /* TextFacesTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A46D02C1BF246BC005204BC /* TextFacesTests.m */,
+				0A46D02A1BF246BC005204BC /* Supporting Files */,
+			);
+			path = TextFacesTests;
+			sourceTree = "<group>";
+		};
+		0A46D02A1BF246BC005204BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A46D02B1BF246BC005204BC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A46D03B1BF246F3005204BC /* TextFacesKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0A8534361BF9C0AB001A62FF /* TextFacesKeyboard.entitlements */,
+				0A46D04C1BF38764005204BC /* Controllers */,
+				0A46D03C1BF246F3005204BC /* Supporting Files */,
+				0A46D04D1BF38791005204BC /* Views */,
+				0A46D0B91BF4E5CF005204BC /* Images.xcassets */,
+			);
+			path = TextFacesKeyboard;
+			sourceTree = "<group>";
+		};
+		0A46D03C1BF246F3005204BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A46D03D1BF246F3005204BC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A46D04C1BF38764005204BC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0A8534381BF9D80C001A62FF /* KeyboardTexfFacesListViewController.m */,
+				0A46D03E1BF246F3005204BC /* KeyboardViewController.h */,
+				0A46D03F1BF246F3005204BC /* KeyboardViewController.m */,
+				0A46D0581BF3F040005204BC /* KeyboardTexfFacesListViewController.h */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		0A46D04D1BF38791005204BC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0A46D0481BF248D9005204BC /* KeyboardView.h */,
+				0A46D0491BF248D9005204BC /* KeyboardView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		0A46D04E1BF387A9005204BC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0A46D0521BF39250005204BC /* TextFaces.h */,
+				0A46D0531BF39250005204BC /* TextFaces.m */,
+			);
+			name = Models;
+			path = /Users/creativitykills/Desktop/TextFaces/TextFaces;
+			sourceTree = "<absolute>";
+		};
+		0A46D0C41BF4FC2D005204BC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0A46D0D41BF62558005204BC /* FirstLaunchViewController.h */,
+				0A46D0D51BF62558005204BC /* FirstLaunchViewController.m */,
+				0A57D7E31BF7F470004D4E6E /* HelpViewController.h */,
+				0A57D7E41BF7F470004D4E6E /* HelpViewController.m */,
+				0A85343E1BFA310C001A62FF /* ManageFavoritesTableViewCellController.h */,
+				0A85343F1BFA310C001A62FF /* ManageFavoritesTableViewCellController.m */,
+				0A57D7E71BF8D68E004D4E6E /* ManageTextFacesTableViewController.h */,
+				0A57D7E81BF8D68E004D4E6E /* ManageTextFacesTableViewController.m */,
+				0A46D0C01BF4F6F1005204BC /* RootNavigationController.h */,
+				0A46D0C11BF4F6F1005204BC /* RootNavigationController.m */,
+				0A46D0171BF246BB005204BC /* RootViewController.h */,
+				0A46D0181BF246BB005204BC /* RootViewController.m */,
+				0AA4E9F01C089F5D00D81A60 /* CommunityTextFacesTableViewController.h */,
+				0AA4E9F11C089F5D00D81A60 /* CommunityTextFacesTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		0A46D0D31BF5567F005204BC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0A46D0CF1BF5567B005204BC /* RootMenuTableViewCell.h */,
+				0A46D0D01BF5567B005204BC /* RootMenuTableViewCell.m */,
+				0A85343A1BF9F45B001A62FF /* ManageTextFacesCell.h */,
+				0A85343B1BF9F45B001A62FF /* ManageTextFacesCell.m */,
+				0A7FE5901C098BF200055A2B /* SuggestedTableViewCell.h */,
+				0A7FE5911C098BF200055A2B /* SuggestedTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		0ACDF06E1C03837400ED8EDC /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				0AC4BF091BFDE49F00B0E5D9 /* NSString+Additions.h */,
+				0AC4BF0A1BFDE49F00B0E5D9 /* NSString+Additions.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		0AF73A751C0493B400ABC75E /* TextFacesAction */ = {
+			isa = PBXGroup;
+			children = (
+				0AF73A831C04940200ABC75E /* TextFacesAction.entitlements */,
+				0AF73A761C0493B400ABC75E /* ActionViewController.h */,
+				0AF73A771C0493B400ABC75E /* ActionViewController.m */,
+				0AF73A791C0493B400ABC75E /* MainInterface.storyboard */,
+				0AF73A7C1C0493B400ABC75E /* Info.plist */,
+			);
+			path = TextFacesAction;
+			sourceTree = "<group>";
+		};
+		0CA9280CF58A6344DD537E39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0ADEF3661BFDFFBC0075FB60 /* libPods.a */,
+				0ADEF3641BFDFFB00075FB60 /* libPods.a */,
+				0ADEF3621BFDFDC50075FB60 /* MessageUI.framework */,
+				DCB231F4345F0C113D3B9F8F /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA8ABABE09CE599EE8BD6478 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				004E588E9A18D598A7B1620E /* Pods.debug.xcconfig */,
+				784F3DF54DC3C4E7DEF0ACEC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A46D00C1BF246BB005204BC /* TextFaces */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A46D0301BF246BC005204BC /* Build configuration list for PBXNativeTarget "TextFaces" */;
+			buildPhases = (
+				0AD607538BDB75D492DF647B /* Check Pods Manifest.lock */,
+				0A46D0091BF246BB005204BC /* Sources */,
+				0A46D00A1BF246BB005204BC /* Frameworks */,
+				0A46D00B1BF246BB005204BC /* Resources */,
+				0A46D0471BF246F3005204BC /* Embed App Extensions */,
+				14081729B014AAA606914410 /* Embed Pods Frameworks */,
+				03CBA4AFA507F4DDFB9858FF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A46D0421BF246F3005204BC /* PBXTargetDependency */,
+				0AF73A7E1C0493B400ABC75E /* PBXTargetDependency */,
+			);
+			name = TextFaces;
+			productName = TextFaces;
+			productReference = 0A46D00D1BF246BB005204BC /* TextFaces.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A46D0251BF246BC005204BC /* TextFacesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A46D0331BF246BC005204BC /* Build configuration list for PBXNativeTarget "TextFacesTests" */;
+			buildPhases = (
+				0A46D0221BF246BC005204BC /* Sources */,
+				0A46D0231BF246BC005204BC /* Frameworks */,
+				0A46D0241BF246BC005204BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A46D0281BF246BC005204BC /* PBXTargetDependency */,
+			);
+			name = TextFacesTests;
+			productName = TextFacesTests;
+			productReference = 0A46D0261BF246BC005204BC /* TextFacesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A46D0391BF246F3005204BC /* TextFacesKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A46D0441BF246F3005204BC /* Build configuration list for PBXNativeTarget "TextFacesKeyboard" */;
+			buildPhases = (
+				0A46D0361BF246F3005204BC /* Sources */,
+				0A46D0371BF246F3005204BC /* Frameworks */,
+				0A46D0381BF246F3005204BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextFacesKeyboard;
+			productName = Keyboard;
+			productReference = 0A46D03A1BF246F3005204BC /* TextFacesKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		0AF73A731C0493B400ABC75E /* TextFacesAction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AF73A801C0493B400ABC75E /* Build configuration list for PBXNativeTarget "TextFacesAction" */;
+			buildPhases = (
+				0AF73A701C0493B400ABC75E /* Sources */,
+				0AF73A711C0493B400ABC75E /* Frameworks */,
+				0AF73A721C0493B400ABC75E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextFacesAction;
+			productName = TextFacesAction;
+			productReference = 0AF73A741C0493B400ABC75E /* TextFacesAction.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A46D0051BF246BB005204BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "TapSharp Interactive";
+				TargetAttributes = {
+					0A46D00C1BF246BB005204BC = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = FMQ6R58UAV;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					0A46D0251BF246BC005204BC = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 0A46D00C1BF246BB005204BC;
+					};
+					0A46D0391BF246F3005204BC = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = FMQ6R58UAV;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					0AF73A731C0493B400ABC75E = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = FMQ6R58UAV;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 0A46D0081BF246BB005204BC /* Build configuration list for PBXProject "TextFaces" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A46D0041BF246BB005204BC;
+			productRefGroup = 0A46D00E1BF246BB005204BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A46D00C1BF246BB005204BC /* TextFaces */,
+				0A46D0251BF246BC005204BC /* TextFacesTests */,
+				0A46D0391BF246F3005204BC /* TextFacesKeyboard */,
+				0AF73A731C0493B400ABC75E /* TextFacesAction */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A46D00B1BF246BB005204BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A46D0B81BF4D859005204BC /* Images.xcassets in Resources */,
+				0A46D01C1BF246BB005204BC /* Main.storyboard in Resources */,
+				0A8534461BFA55A2001A62FF /* textfaces-keyboard-screenshot.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A46D0241BF246BC005204BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A46D0BA1BF4E5CF005204BC /* Images.xcassets in Resources */,
+				0A8534471BFA55A2001A62FF /* textfaces-keyboard-screenshot.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A46D0381BF246F3005204BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A46D0BB1BF4E5CF005204BC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF73A721C0493B400ABC75E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF73A861C04A79900ABC75E /* Images.xcassets in Resources */,
+				0AF73A7B1C0493B400ABC75E /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03CBA4AFA507F4DDFB9858FF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0AD607538BDB75D492DF647B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		14081729B014AAA606914410 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A46D0091BF246BB005204BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A8534351BF9ACDE001A62FF /* TextFaces.m in Sources */,
+				0A46D0191BF246BB005204BC /* RootViewController.m in Sources */,
+				0A46D0C21BF4F6F1005204BC /* RootNavigationController.m in Sources */,
+				0A46D0161BF246BB005204BC /* AppDelegate.m in Sources */,
+				0A46D0D11BF5567B005204BC /* RootMenuTableViewCell.m in Sources */,
+				0AC4BF0B1BFDE49F00B0E5D9 /* NSString+Additions.m in Sources */,
+				0A57D7E51BF7F470004D4E6E /* HelpViewController.m in Sources */,
+				0AA4E9F21C089F5D00D81A60 /* CommunityTextFacesTableViewController.m in Sources */,
+				0A46D0D61BF62558005204BC /* FirstLaunchViewController.m in Sources */,
+				0A7FE5921C098BF200055A2B /* SuggestedTableViewCell.m in Sources */,
+				0A57D7E91BF8D68E004D4E6E /* ManageTextFacesTableViewController.m in Sources */,
+				0A85343C1BF9F45B001A62FF /* ManageTextFacesCell.m in Sources */,
+				0A46D0131BF246BB005204BC /* main.m in Sources */,
+				0A8534401BFA310C001A62FF /* ManageFavoritesTableViewCellController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A46D0221BF246BC005204BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A85343D1BF9F45B001A62FF /* ManageTextFacesCell.m in Sources */,
+				0A8534411BFA310C001A62FF /* ManageFavoritesTableViewCellController.m in Sources */,
+				0A46D02D1BF246BC005204BC /* TextFacesTests.m in Sources */,
+				0AA4E9F31C089F5D00D81A60 /* CommunityTextFacesTableViewController.m in Sources */,
+				0A46D0C31BF4F6F1005204BC /* RootNavigationController.m in Sources */,
+				0A46D0D21BF5567B005204BC /* RootMenuTableViewCell.m in Sources */,
+				0A57D7E61BF7F470004D4E6E /* HelpViewController.m in Sources */,
+				0A46D0D71BF62558005204BC /* FirstLaunchViewController.m in Sources */,
+				0A46D0CE1BF5563E005204BC /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A46D0361BF246F3005204BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A46D0401BF246F3005204BC /* KeyboardViewController.m in Sources */,
+				0A0D8DD21C060FC200B6A903 /* TextFaces.m in Sources */,
+				0A8534391BF9D80C001A62FF /* KeyboardTexfFacesListViewController.m in Sources */,
+				0A46D04A1BF248D9005204BC /* KeyboardView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF73A701C0493B400ABC75E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A0D8DD41C06106700B6A903 /* TextFaces.m in Sources */,
+				0AF73A781C0493B400ABC75E /* ActionViewController.m in Sources */,
+				0AF73A851C04A1A200ABC75E /* NSString+Additions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A46D0281BF246BC005204BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A46D00C1BF246BB005204BC /* TextFaces */;
+			targetProxy = 0A46D0271BF246BC005204BC /* PBXContainerItemProxy */;
+		};
+		0A46D0421BF246F3005204BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A46D0391BF246F3005204BC /* TextFacesKeyboard */;
+			targetProxy = 0A46D0411BF246F3005204BC /* PBXContainerItemProxy */;
+		};
+		0AF73A7E1C0493B400ABC75E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AF73A731C0493B400ABC75E /* TextFacesAction */;
+			targetProxy = 0AF73A7D1C0493B400ABC75E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A46D01A1BF246BB005204BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A46D01B1BF246BB005204BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0AF73A791C0493B400ABC75E /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AF73A7A1C0493B400ABC75E /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A46D02E1BF246BC005204BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0A46D02F1BF246BC005204BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A46D0311BF246BC005204BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 004E588E9A18D598A7B1620E /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = TextFaces/TextFaces.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TextFaces/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tapsharp.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		0A46D0321BF246BC005204BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 784F3DF54DC3C4E7DEF0ACEC /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = TextFaces/TextFaces.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TextFaces/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tapsharp.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		0A46D0341BF246BC005204BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 004E588E9A18D598A7B1620E /* Pods.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TextFacesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tapsharp.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextFaces.app/TextFaces";
+			};
+			name = Debug;
+		};
+		0A46D0351BF246BC005204BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TextFacesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tapsharp.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextFaces.app/TextFaces";
+			};
+			name = Release;
+		};
+		0A46D0451BF246F3005204BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TextFacesKeyboard/TextFacesKeyboard.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/TextFacesKeyboard/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tapsharp.TextFaces.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0A46D0461BF246F3005204BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TextFacesKeyboard/TextFacesKeyboard.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/TextFacesKeyboard/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tapsharp.TextFaces.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		0AF73A811C0493B400ABC75E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = ShareActionIcons;
+				CODE_SIGN_ENTITLEMENTS = TextFacesAction/TextFacesAction.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = TextFacesAction/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tapsharp.TextFaces.TextFacesAction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0AF73A821C0493B400ABC75E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = ShareActionIcons;
+				CODE_SIGN_ENTITLEMENTS = TextFacesAction/TextFacesAction.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = TextFacesAction/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tapsharp.TextFaces.TextFacesAction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A46D0081BF246BB005204BC /* Build configuration list for PBXProject "TextFaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A46D02E1BF246BC005204BC /* Debug */,
+				0A46D02F1BF246BC005204BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A46D0301BF246BC005204BC /* Build configuration list for PBXNativeTarget "TextFaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A46D0311BF246BC005204BC /* Debug */,
+				0A46D0321BF246BC005204BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A46D0331BF246BC005204BC /* Build configuration list for PBXNativeTarget "TextFacesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A46D0341BF246BC005204BC /* Debug */,
+				0A46D0351BF246BC005204BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A46D0441BF246F3005204BC /* Build configuration list for PBXNativeTarget "TextFacesKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A46D0451BF246F3005204BC /* Debug */,
+				0A46D0461BF246F3005204BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AF73A801C0493B400ABC75E /* Build configuration list for PBXNativeTarget "TextFacesAction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AF73A811C0493B400ABC75E /* Debug */,
+				0AF73A821C0493B400ABC75E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A46D0051BF246BB005204BC /* Project object */;
+}

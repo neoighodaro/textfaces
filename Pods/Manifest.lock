@@ -1,0 +1,16 @@
+PODS:
+  - Appirater (2.0.5)
+  - Bolts/Tasks (1.5.0)
+  - Parse (1.10.0):
+    - Bolts/Tasks (~> 1.5)
+
+DEPENDENCIES:
+  - Appirater
+  - Parse
+
+SPEC CHECKSUMS:
+  Appirater: e7c0a47fb67ee5041ce8479e6ba960927fb40264
+  Bolts: 722ab9a4f8b50fc4ed1b9998a5a7a2b3f16d80b4
+  Parse: 90b2544822200f84b18bfacc4e8b0a3a6c3584a2
+
+COCOAPODS: 0.39.0
